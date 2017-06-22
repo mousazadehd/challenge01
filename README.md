@@ -30,3 +30,11 @@ More details :  https://cloud.google.com/compute/docs/disks/add-persistent-disk#
 kubectl create -f postgres-claim.yml
 kubectl create -f postgres-pod.yml
 kubectl create -f postgres-service.yml**
+
+
+
+#To do
+- Create replica PODS
+- Use etcd for leader/master selection => https://github.com/coreos/etcd
+
+3) 3. Write a bash script that takes a file name and a destination path as input, and can find the names/IPs of the kubernetes machines dynamically and then copy the file passed as input to the destination path on all three machines
