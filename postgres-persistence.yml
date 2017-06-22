@@ -6,7 +6,7 @@ metadata:
     name: pg-data-disk
 spec:
   capacity:
-    storage: 50Gi
+    storage: 5Gi
   accessModes:
     - ReadWriteOnce
   gcePersistentDisk:
