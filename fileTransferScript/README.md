@@ -14,4 +14,4 @@ edit
   In this case my cluster name is cluster-challenge, so I have filtered the VMs by cluster name so that I am only copying the files into the cluster nodes and any other VMs. 
  
 4) Run the transfer.sh and enter the 1) file name or path 2) the destination path 
-see the result in here 
+see the result in here => https://github.com/mousazadehd/challenge01/blob/master/fileTransferScript/TransferFileToKubernetesClusterNodes.png
