@@ -33,9 +33,10 @@ kubectl create -f postgres-pod.yml
 kubectl create -f postgres-service.yml**
 
 
+3) Write a bash script that takes a file name and a destination path as input, and can find the names/IPs of the kubernetes machines dynamically and then copy the file passed as input to the destination path on all three machines
+
+https://github.com/mousazadehd/challenge01/tree/master/fileTransferScript
 
 #To do
 - Create replica PODS
 - Use etcd for leader/master selection => https://github.com/coreos/etcd
-
-3) Write a bash script that takes a file name and a destination path as input, and can find the names/IPs of the kubernetes machines dynamically and then copy the file passed as input to the destination path on all three machines
