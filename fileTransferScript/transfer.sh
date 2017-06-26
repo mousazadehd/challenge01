@@ -8,7 +8,7 @@ echo "Enter the destination in Kubernetes cluster nodes that you would like to t
 read destination
 # Defines the Kubernetes cluster nodes
 serverNodes="/Users/dariush/Documents/FileCopy-Script/serverNodes.txt"
-gcloud compute instances list | egrep gke-cluster-challenge-default-pool | tr -s ' ' | cut -d ' ' -f 1 > $serverNodes
+gcloud compute instances list | egrep cluster-challenge | tr -s ' ' | cut -d ' ' -f 1 > $serverNodes
 
 # Transfer the file specified by user to cluster nodes and logs the errors in log.txt
 while read server; do
