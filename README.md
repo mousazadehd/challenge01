@@ -34,8 +34,3 @@ kubectl create -f postgres-service.yml**
 
 
 
-https://github.com/mousazadehd/challenge01/tree/master/fileTransferScript
-
-#To do
-- Create replica PODS
-- Use etcd for leader/master selection => https://github.com/coreos/etcd
