@@ -1,10 +1,8 @@
-# challenge
 
-1) In the "challenge" project on Google Cloud create a 3 machine Kubernetes cluster. The machine sizes should be 1 CPU and about 4GB of memory.
 
 **create-cluster.sh**
 
-2) Create a postgres Statefulset that runs on the Kubernetes stack you just created. The statefulset should have 1 master and 2 replicas.
+
 
 # Create persistent disk for the postgres POD
 
